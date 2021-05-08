@@ -12,7 +12,7 @@ Sample result file is stored here [output.txt](docs/output.txt)
 To run the script, first install the requirements.
 
 ```bash
-pip install -r setup/requirements.txt 
+pip3 install -r setup/requirements.txt 
 ``` 
 
 The main script is inside the greatcircle package, called `find_customers_within_circle.py`,
@@ -71,9 +71,9 @@ Build image
 docker build . --tag greatcircle:latest
 ``` 
 
-To run
+To run (in a linux box)
 ```
-docker run --rm --name greatcircle greatcircle:latest --input customers.txt --range 200 --plot
+docker run --rm --name greatcircle -v $(pwd):/app greatcircle:latest --input customers.txt --range 200 --plot
 ```
 
 ### Test
