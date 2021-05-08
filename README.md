@@ -2,7 +2,7 @@
 
 *Find customers that are within 100km from dublin office to invite them for party.*
 
-##Installation
+## Installation
 
 * python3 (required)
 * docker (optional)
