@@ -31,7 +31,7 @@ optional arguments:
 
 ### Example 
 
-Sample run result is stored here [customers.txt](/tests/input/customers.txt)
+Sample input data is stored here that can be used for testing [customers.txt](/tests/input/customers.txt)
 
 
 ```bash
